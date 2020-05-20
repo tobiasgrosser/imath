@@ -34,9 +34,9 @@ extern "C" {
 #endif
 
 typedef struct mpq {
-  mpz_t   num;    /* Numerator         */
-  mpz_t   den;    /* Denominator, <> 0 */
-} mpq_t, *mp_rat;
+  mpz_imath_t   num;    /* Numerator         */
+  mpz_imath_t   den;    /* Denominator, <> 0 */
+} mpq_imath_t, *mp_rat;
 
 #define MP_NUMER_P(Q)  (&((Q)->num)) /* Pointer to numerator   */
 #define MP_DENOM_P(Q)  (&((Q)->den)) /* Pointer to denominator */

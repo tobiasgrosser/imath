@@ -68,7 +68,7 @@ mp_result mp_int_is_prime(mp_int z)
      the above that z is not a multiple of any of them)
    */
   {
-    mpz_t  tmp;
+    mpz_imath_t  tmp;
 
     if((res = mp_int_init(&tmp)) != MP_OK) return res;
 

@@ -3,7 +3,7 @@
 #include "imath.h"
 
 int main(int argc, char* argv[]) {
-  mpz_t a, b;
+  mpz_imath_t a, b;
   int result;
 
   mp_int_init_value(&a, 1);

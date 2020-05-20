@@ -214,7 +214,7 @@ void GMPZAPI(fdiv_q)(mp_int q, mp_int n, mp_int d);
 /* gmp: mpz_fdiv_r */
 void GMPZAPI(fdiv_r)(mp_int r, mp_int n, mp_int d);
 
-/* gmp: mpz_tdiv_q */
+/* gmp: mpz_imath_tdiv_q */
 void GMPZAPI(tdiv_q)(mp_int q, mp_int n, mp_int d);
 
 /* gmp: mpz_export */

@@ -357,7 +357,7 @@
 	Made some code style changes that do not affect functionality.
 
 1.17
-	Fixed a bug in mp_int_swap() where mpz_t structures using their single
+	Fixed a bug in mp_int_swap() where mpz_imath_t structures using their single
 	field as storage would not get swapped correctly.
 	Reported by Andres Navarro <canavarro82@gmail.com>
 

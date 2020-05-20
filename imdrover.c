@@ -62,7 +62,7 @@ do {                 \
 #define OTHER_ERROR  -1024
 
 static char g_output[OUTPUT_LIMIT];
-static mpz_t g_zreg[NUM_REGS];
+static mpz_imath_t g_zreg[NUM_REGS];
 static mpq_t g_qreg[NUM_REGS];
 static unsigned char g_bin1[OUTPUT_LIMIT];
 static unsigned char g_bin2[OUTPUT_LIMIT];
