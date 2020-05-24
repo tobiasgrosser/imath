@@ -53,7 +53,7 @@ typedef uint16_t           mp_digit;
 typedef uint32_t           mp_word;
 #endif
 
-typedef struct mpz {
+typedef struct imath_mpz {
   mp_digit    single;
   mp_digit   *digits;
   mp_size     alloc;
